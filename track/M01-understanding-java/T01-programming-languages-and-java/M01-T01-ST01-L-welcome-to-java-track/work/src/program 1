@@ -1,0 +1,24 @@
+puotic class program1 {
+public static void main(Stringt] args) (
+int number = -7;
+int firstscore = 18;
+int secondScore = 25;
+if (number > 0) {
+    System.out.printIn("Number type: Positive);
+} else if (number < 0) (
+    System.out printin(Number type: Negative);
+} else {
+    Systen. out printin("Number type: Zero");
+
+if (number % 2 == 0) {
+    Systen.out.printIn("Parity: Even");
+} else {
+    System.out.printin("Parity: Odd);
+}
+
+if (firstScore >= secondScore) {
+System.out.println("Larger score: " + firstScore);
+} else {
+System.out.println("Larger score:  + secondScore);
+
+}
