@@ -1,5 +1,4 @@
-public class NestedLoop 2. java
-{
+public class NestedLoop2 {
 
     public static void main(String[] args) {
         int i = 1;
