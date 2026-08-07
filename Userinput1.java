@@ -33,5 +33,10 @@ public class Userinput1 {
         boolean g = scan.nextBoolean();
         System.out.println("boolean value is : " + g);
 
+        scan.nextLine();
+        System.out.println("Enter your full name :");
+        String fname = scan.nextLine();
+        System.out.println("Full name is: " + fname);
+
     }
 }
