@@ -1,21 +1,20 @@
-package.vscode;
 
 public class ArraySearch {
     void search()
     {
 
     void search(int ref[], int key) {
-        boolean found = true;
+        boolean found = false;
         for (int i = 0; i <= ref.length - 1; i++) {
             if (ref[i] == key) {
                 System.out.println("Element found at index :" + i);
-                found = false;
+                found = true;
             }
         }
         if (found) {
             System.out.println("Element not found...");
         }
-    }}
+    }
 
     Class Main{
 
